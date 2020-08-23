@@ -1,0 +1,159 @@
+// Media
+
+// 1500 
+
+@media(max-width: 1500px) {
+    
+    .do_img {
+        position: static;
+    }
+}
+
+// 1199
+
+@media(max-width: 1199px) {
+    
+
+    .block_content {
+        padding: 10px 20px 20px 10px;
+    }
+
+    .blog_section {
+        margin-bottom: 10px;
+    }
+}
+
+// 991
+
+@media(max-width: 991px) {
+
+    .header {
+        position: relative;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .intro_menu {
+        display: none;
+    }
+
+    .intro_menu li {
+        margin-bottom: 12px;
+    }
+
+    .intro_menu li:last-child {
+        margin-bottom: 0;
+    }
+
+    .connect_input {
+        height: 50px;
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .intro_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .connect_subscribe {
+        height: 50px;
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .connect_form {
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    
+
+    .info_logo {
+        margin-bottom: 10px;
+    }
+    
+    .info_title {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+// 767 
+
+@media(max-width: 767px) {
+
+    .blog_content {
+        margin-bottom: 45px;
+    }
+
+    .service_connect {
+        margin-bottom: 30px;
+    }
+
+    
+    .make_choose {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .choose_buttons {
+        justify-content: center;
+    }
+
+    .choose_text {
+        margin: 25px 0;
+    }
+    
+    .choose_header {
+        margin-top: 20px;
+    }
+
+    .support {
+        text-align: center;
+    }
+
+    .support_button {
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    .do_button {
+        margin: 0 auto;
+    }
+
+    .do_content {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .service_text {
+        width: 100%;
+    }
+
+    .service_text, .blog_text {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 575px) {
+    .block_content {
+        text-align: center;
+    }
+
+    .blog_img {
+        justify-content: center;
+    }
+
+    .intro_header {
+        font-size: 40px;
+    }
+}

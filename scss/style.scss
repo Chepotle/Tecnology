@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
 @import "_reboot";
+@import "_burger";
 
 
 
@@ -54,7 +54,7 @@
 
 .intro_content {
     margin-bottom: 70px;
-    width: 53%;
+    width: 50%;
 }
 
 
@@ -588,8 +588,11 @@
         font-size: 17px;
         font-weight: 700;
         text-transform: uppercase;
-        
     }
+}
+
+.blog_img {
+    display: flex;
 }
 
 // Info
@@ -675,156 +678,7 @@
 }
 
 
-// Media
-
-// 1500 
-
-@media(max-width: 1500px) {
-    
-    .do_img {
-        position: static;
-    }
-}
-
-// 1199
-
-@media(max-width: 1199px) {
-    
-
-    .block_content {
-        padding: 10px 20px 20px 10px;
-    }
-
-    .blog_section {
-        margin-bottom: 10px;
-    }
-}
-
-// 991
-
-@media(max-width: 991px) {
-
-    .intro_block {
-        height: calc(100vh - 173px);
-    }
-
-    .intro_menu {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .intro_menu li {
-        margin-bottom: 12px;
-    }
-
-    .intro_menu li:last-child {
-        margin-bottom: 0;
-    }
-
-    .connect_input {
-        height: 50px;
-        width: 90%;
-        padding: 0;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    .intro_content {
-        width: 100%;
-        text-align: center;
-    }
-
-    .connect_subscribe {
-        height: 50px;
-        width: 90%;
-        padding: 0;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .connect_form {
-        flex-direction: column;
-        background-color: transparent;
-    }
-
-    
-
-    .info_logo {
-        margin-bottom: 10px;
-    }
-    
-    .info_title {
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-    
-}
-
-// 767 
-
-@media(max-width: 767px) {
-    
-    
-
-    .blog_content {
-        margin-bottom: 45px;
-    }
-
-    .service_connect {
-        margin-bottom: 30px;
-    }
-
-    
-    .make_choose {
-        text-align: center;
-        margin-bottom: 25px;
-    }
-
-    .choose_buttons {
-        justify-content: center;
-    }
-
-    .choose_text {
-        margin: 25px 0;
-    }
-    
-    .choose_header {
-        margin-top: 20px;
-    }
-
-    .support {
-        text-align: center;
-    }
-
-    .support_button {
-        margin: 0 auto;
-        margin-bottom: 35px;
-    }
-
-
-
-
-    .do_button {
-        margin: 0 auto;
-    }
-
-    .do_content {
-        text-align: center;
-        margin-top: 25px;
-    }
-
-    .service_text {
-        width: 100%;
-    }
-
-
-    
-
-    .service_text, .blog_text {
-        margin-bottom: 40px;
-    }
-}
+@import "_media";
 
 
 
