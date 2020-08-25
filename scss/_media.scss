@@ -84,7 +84,10 @@
         margin-top: 15px;
         margin-bottom: 10px;
     }
-    
+
+    .blog_section {
+        margin-top: 40px;
+    }
 }
 
 // 767 
@@ -142,9 +145,24 @@
     .service_text, .blog_text {
         margin-bottom: 40px;
     }
+
+    
 }
 
 @media(max-width: 575px) {
+
+    .blog_section_img {
+        text-align: center;
+    }
+
+    .blog_section_text {
+        text-align: center;
+    }
+
+    .blog_section_content {
+        flex-direction: column;
+    }
+
     .block_content {
         text-align: center;
     }
